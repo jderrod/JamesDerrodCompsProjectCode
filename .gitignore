@@ -1,4 +1,4 @@
-# Unity generated
+# Unity Generated
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -6,11 +6,17 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
 
-# VS/VSCode/Rider generated
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Visual Studio / VS Code / Rider generated
 .vs/
 .vscode/
 .idea/
+ExportedObj/
+.consulo/
 *.csproj
 *.unityproj
 *.sln
@@ -25,8 +31,14 @@
 *.mdb
 *.opendb
 *.VC.db
+*.vsconfig
 
-# Python/ML environment
+# Unity Package Manager
+*.tgz
+
+# ML Agents specific
+results/*/run_logs/
+results/*/*.log
 MLvenv/
 venv/
 env/
@@ -34,27 +46,47 @@ env/
 __pycache__/
 *.py[cod]
 *$py.class
+*.egg-info/
+*.egg
 
-# Unity Package Manager
-*.tgz
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
 
-# Large file types that should be handled by Git LFS
-*.log
-*.pyd
-*.dylib
-*.dll
-*.lib
-*.zip
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
 *.unitypackage
 *.app
-*.exe
-*.msi
+
+# Crashlytics generated file
+crashlytics-build.properties
 
 # OS generated
-.DS_Store*
+.DS_Store
+.DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
 Icon?
 ehthumbs.db
 [Tt]humbs.db
+[Dd]esktop.ini
+
+# Large file types that should be handled by Git LFS
+*.pyd
+*.dylib
+*.dll
+*.lib
+*.so
+*.zip
+*.tgz
+*.rar
+
+# Unity Package Cache and Asset Database
+/[Ll]ibrary/PackageCache/
+/[Ll]ibrary/ArtifactDB
