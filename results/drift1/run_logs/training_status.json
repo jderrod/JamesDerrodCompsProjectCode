@@ -1,0 +1,38 @@
+{
+    "car_training_config": {
+        "checkpoints": [
+            {
+                "steps": 49938,
+                "file_path": "results\\drift1\\car_training_config\\car_training_config-49938.onnx",
+                "reward": 2.033143696375191,
+                "creation_time": 1729235196.6982393,
+                "auxillary_file_paths": [
+                    "results\\drift1\\car_training_config\\car_training_config-49938.pt"
+                ]
+            },
+            {
+                "steps": 88851,
+                "file_path": "results\\drift1\\car_training_config\\car_training_config-88851.onnx",
+                "reward": 2.041635969032844,
+                "creation_time": 1729235387.6613808,
+                "auxillary_file_paths": [
+                    "results\\drift1\\car_training_config\\car_training_config-88851.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 88851,
+            "file_path": "results\\drift1\\car_training_config.onnx",
+            "reward": 2.041635969032844,
+            "creation_time": 1729235387.6613808,
+            "auxillary_file_paths": [
+                "results\\drift1\\car_training_config\\car_training_config-88851.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

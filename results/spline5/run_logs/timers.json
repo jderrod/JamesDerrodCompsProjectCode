@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1730683725",
+        "python_version": "3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\james\\OneDrive\\Desktop\\Unity Projects\\Comps Project 2\\MLvenv\\Scripts\\mlagents-learn TrainingConfigs/car_training_config.yaml --run-id=spline5 --train",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.4.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1730683788"
+    },
+    "total": 62.75861200003419,
+    "count": 1,
+    "self": 0.006725500104948878,
+    "children": {
+        "run_training.setup": {
+            "total": 0.25146529998164624,
+            "count": 1,
+            "self": 0.25146529998164624
+        },
+        "TrainerController.start_learning": {
+            "total": 62.500421199947596,
+            "count": 1,
+            "self": 0.00011329993139952421,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.500286699971184,
+                    "count": 1,
+                    "self": 62.500286699971184
+                },
+                "TrainerController._save_models": {
+                    "total": 2.1200045011937618e-05,
+                    "count": 1,
+                    "self": 2.1200045011937618e-05
+                }
+            }
+        }
+    }
+}

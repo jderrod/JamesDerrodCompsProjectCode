@@ -1,0 +1,28 @@
+behaviors:
+  car_training_config: 
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 128
+      buffer_size: 4096
+      learning_rate: 3.0e-4  # Kept original learning rate
+      beta: 5.0e-3          # Increased exploration
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+      learning_rate_schedule: linear
+    network_settings:
+      normalize: true
+      hidden_units: 256
+      num_layers: 3
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+      curiosity:           # Added curiosity for better exploration
+        strength: 0.02
+        gamma: 0.99
+        encoding_size: 256
+    max_steps: 2000000
+    time_horizon: 128
+    summary_freq: 10000
+    checkpoint_interval: 50000

@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1729121104",
+        "python_version": "3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\james\\OneDrive\\Desktop\\Unity Projects\\Comps Project 2\\MLvenv\\Scripts\\mlagents-learn TrainingConfigs/car_training_config.yaml --run-id=zane --train",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.4.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1729121149"
+    },
+    "total": 44.9319739999919,
+    "count": 1,
+    "self": 0.01838599999609869,
+    "children": {
+        "run_training.setup": {
+            "total": 0.26623180000751745,
+            "count": 1,
+            "self": 0.26623180000751745
+        },
+        "TrainerController.start_learning": {
+            "total": 44.64735619998828,
+            "count": 1,
+            "self": 0.0006610999844269827,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 44.646677500000806,
+                    "count": 1,
+                    "self": 44.646677500000806
+                },
+                "trainer_threads": {
+                    "total": 1.4999968698248267e-06,
+                    "count": 1,
+                    "self": 1.4999968698248267e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.610000617802143e-05,
+                    "count": 1,
+                    "self": 1.610000617802143e-05
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1731303338",
+        "python_version": "3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\james\\OneDrive\\Desktop\\Unity Projects\\Comps Project 2\\MLvenv\\Scripts\\mlagents-learn Assets/training_config.yaml --env=Builds/Comps Project 2.exe --run-id=headless1111 --resume --no-graphics --time-scale=20",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.4.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1731303343"
+    },
+    "total": 5.028846299974248,
+    "count": 1,
+    "self": 0.2743935997132212,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0878751000855118,
+            "count": 1,
+            "self": 0.0878751000855118
+        },
+        "TrainerController.start_learning": {
+            "total": 4.666577600175515,
+            "count": 1,
+            "self": 0.00011140014976263046,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 4.464314599987119,
+                    "count": 1,
+                    "self": 4.464314599987119
+                },
+                "TrainerController._save_models": {
+                    "total": 0.20215160003863275,
+                    "count": 1,
+                    "self": 0.01220570015721023,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.18994589988142252,
+                            "count": 1,
+                            "self": 0.18994589988142252
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

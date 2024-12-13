@@ -1,0 +1,65 @@
+{
+    "car_training_config": {
+        "checkpoints": [
+            {
+                "steps": 399980,
+                "file_path": "results\\drift2\\car_training_config\\car_training_config-399980.onnx",
+                "reward": 82.38279819488525,
+                "creation_time": 1729237410.1544235,
+                "auxillary_file_paths": [
+                    "results\\drift2\\car_training_config\\car_training_config-399980.pt"
+                ]
+            },
+            {
+                "steps": 449992,
+                "file_path": "results\\drift2\\car_training_config\\car_training_config-449992.onnx",
+                "reward": 82.3694360256195,
+                "creation_time": 1729237606.8406827,
+                "auxillary_file_paths": [
+                    "results\\drift2\\car_training_config\\car_training_config-449992.pt"
+                ]
+            },
+            {
+                "steps": 499940,
+                "file_path": "results\\drift2\\car_training_config\\car_training_config-499940.onnx",
+                "reward": 82.35837054252625,
+                "creation_time": 1729237803.1052856,
+                "auxillary_file_paths": [
+                    "results\\drift2\\car_training_config\\car_training_config-499940.pt"
+                ]
+            },
+            {
+                "steps": 549980,
+                "file_path": "results\\drift2\\car_training_config\\car_training_config-549980.onnx",
+                "reward": 82.35695290565491,
+                "creation_time": 1729238001.654067,
+                "auxillary_file_paths": [
+                    "results\\drift2\\car_training_config\\car_training_config-549980.pt"
+                ]
+            },
+            {
+                "steps": 566672,
+                "file_path": "results\\drift2\\car_training_config\\car_training_config-566672.onnx",
+                "reward": 82.35507929325104,
+                "creation_time": 1729238132.7592885,
+                "auxillary_file_paths": [
+                    "results\\drift2\\car_training_config\\car_training_config-566672.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 566672,
+            "file_path": "results\\drift2\\car_training_config.onnx",
+            "reward": 82.35507929325104,
+            "creation_time": 1729238132.7592885,
+            "auxillary_file_paths": [
+                "results\\drift2\\car_training_config\\car_training_config-566672.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

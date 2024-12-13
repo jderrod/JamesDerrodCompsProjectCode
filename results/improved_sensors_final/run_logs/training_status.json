@@ -1,0 +1,65 @@
+{
+    "car_training_config": {
+        "checkpoints": [
+            {
+                "steps": 1499967,
+                "file_path": "results\\improved_sensors_final\\car_training_config\\car_training_config-1499967.onnx",
+                "reward": 1.15,
+                "creation_time": 1732452934.7355416,
+                "auxillary_file_paths": [
+                    "results\\improved_sensors_final\\car_training_config\\car_training_config-1499967.pt"
+                ]
+            },
+            {
+                "steps": 1702084,
+                "file_path": "results\\improved_sensors_final\\car_training_config\\car_training_config-1702084.onnx",
+                "reward": 1.0952380952380953,
+                "creation_time": 1732455008.1345105,
+                "auxillary_file_paths": [
+                    "results\\improved_sensors_final\\car_training_config\\car_training_config-1702084.pt"
+                ]
+            },
+            {
+                "steps": 1999999,
+                "file_path": "results\\improved_sensors_final\\car_training_config\\car_training_config-1999999.onnx",
+                "reward": 1.0714285714285714,
+                "creation_time": 1732458115.9163659,
+                "auxillary_file_paths": [
+                    "results\\improved_sensors_final\\car_training_config\\car_training_config-1999999.pt"
+                ]
+            },
+            {
+                "steps": 2499951,
+                "file_path": "results\\improved_sensors_final\\car_training_config\\car_training_config-2499951.onnx",
+                "reward": 1.1232876712328768,
+                "creation_time": 1732463579.3360496,
+                "auxillary_file_paths": [
+                    "results\\improved_sensors_final\\car_training_config\\car_training_config-2499951.pt"
+                ]
+            },
+            {
+                "steps": 2778368,
+                "file_path": "results\\improved_sensors_final\\car_training_config\\car_training_config-2778368.onnx",
+                "reward": 1.1,
+                "creation_time": 1732467329.368238,
+                "auxillary_file_paths": [
+                    "results\\improved_sensors_final\\car_training_config\\car_training_config-2778368.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2778368,
+            "file_path": "results\\improved_sensors_final\\car_training_config.onnx",
+            "reward": 1.1,
+            "creation_time": 1732467329.368238,
+            "auxillary_file_paths": [
+                "results\\improved_sensors_final\\car_training_config\\car_training_config-2778368.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

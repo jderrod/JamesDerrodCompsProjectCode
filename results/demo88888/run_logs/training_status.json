@@ -1,0 +1,29 @@
+{
+    "car_training_config": {
+        "checkpoints": [
+            {
+                "steps": 2835,
+                "file_path": "results\\demo88888\\car_training_config\\car_training_config-2835.onnx",
+                "reward": -5.0,
+                "creation_time": 1731375635.3764024,
+                "auxillary_file_paths": [
+                    "results\\demo88888\\car_training_config\\car_training_config-2835.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2835,
+            "file_path": "results\\demo88888\\car_training_config.onnx",
+            "reward": -5.0,
+            "creation_time": 1731375635.3764024,
+            "auxillary_file_paths": [
+                "results\\demo88888\\car_training_config\\car_training_config-2835.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

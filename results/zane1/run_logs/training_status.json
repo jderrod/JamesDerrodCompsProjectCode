@@ -1,0 +1,47 @@
+{
+    "car_training_config": {
+        "checkpoints": [
+            {
+                "steps": 49953,
+                "file_path": "results\\zane1\\car_training_config\\car_training_config-49953.onnx",
+                "reward": null,
+                "creation_time": 1729121527.3765445,
+                "auxillary_file_paths": [
+                    "results\\zane1\\car_training_config\\car_training_config-49953.pt"
+                ]
+            },
+            {
+                "steps": 99986,
+                "file_path": "results\\zane1\\car_training_config\\car_training_config-99986.onnx",
+                "reward": 1.020369715988636,
+                "creation_time": 1729121876.7504983,
+                "auxillary_file_paths": [
+                    "results\\zane1\\car_training_config\\car_training_config-99986.pt"
+                ]
+            },
+            {
+                "steps": 109120,
+                "file_path": "results\\zane1\\car_training_config\\car_training_config-109120.onnx",
+                "reward": 1.0229786857962608,
+                "creation_time": 1729122004.195647,
+                "auxillary_file_paths": [
+                    "results\\zane1\\car_training_config\\car_training_config-109120.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 109120,
+            "file_path": "results\\zane1\\car_training_config.onnx",
+            "reward": 1.0229786857962608,
+            "creation_time": 1729122004.195647,
+            "auxillary_file_paths": [
+                "results\\zane1\\car_training_config\\car_training_config-109120.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

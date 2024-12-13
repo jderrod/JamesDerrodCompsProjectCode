@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1734014090",
+        "python_version": "3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\james\\OneDrive\\Desktop\\Unity Projects\\Comps Project 2\\MLvenv\\Scripts\\mlagents-learn Assets/training_config.yaml --env=Builds/Comps Project 2.exe --run-id=3 --no-graphics",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.4.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1734014096"
+    },
+    "total": 6.049801299999672,
+    "count": 1,
+    "self": 0.007400200000120094,
+    "children": {
+        "run_training.setup": {
+            "total": 0.11119090000011056,
+            "count": 1,
+            "self": 0.11119090000011056
+        },
+        "TrainerController.start_learning": {
+            "total": 5.931210199999441,
+            "count": 1,
+            "self": 0.00011249999897700036,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 5.931079800000589,
+                    "count": 1,
+                    "self": 5.931079800000589
+                },
+                "TrainerController._save_models": {
+                    "total": 1.7899999875226058e-05,
+                    "count": 1,
+                    "self": 1.7899999875226058e-05
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1730686919",
+        "python_version": "3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\james\\OneDrive\\Desktop\\Unity Projects\\Comps Project 2\\MLvenv\\Scripts\\mlagents-learn TrainingConfigs/car_training_config.yaml --env=Builds/HeadlessTraining --run-id=first_training --no-graphics",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.4.1+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1730686922"
+    },
+    "total": 2.6176725999685004,
+    "count": 1,
+    "self": 0.0061651000287383795,
+    "children": {
+        "run_training.setup": {
+            "total": 0.12088579998817295,
+            "count": 1,
+            "self": 0.12088579998817295
+        },
+        "TrainerController.start_learning": {
+            "total": 2.490621699951589,
+            "count": 1,
+            "self": 0.00035910005681216717,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 2.490254299947992,
+                    "count": 1,
+                    "self": 2.490254299947992
+                },
+                "trainer_threads": {
+                    "total": 9.00006853044033e-07,
+                    "count": 1,
+                    "self": 9.00006853044033e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 7.3999399319291115e-06,
+                    "count": 1,
+                    "self": 7.3999399319291115e-06
+                }
+            }
+        }
+    }
+}

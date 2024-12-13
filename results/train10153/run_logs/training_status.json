@@ -1,0 +1,65 @@
+{
+    "car_training_config": {
+        "checkpoints": [
+            {
+                "steps": 449956,
+                "file_path": "results\\train10153\\car_training_config\\car_training_config-449956.onnx",
+                "reward": 0.9969870299100876,
+                "creation_time": 1729031573.905993,
+                "auxillary_file_paths": [
+                    "results\\train10153\\car_training_config\\car_training_config-449956.pt"
+                ]
+            },
+            {
+                "steps": 499968,
+                "file_path": "results\\train10153\\car_training_config\\car_training_config-499968.onnx",
+                "reward": 0.8804234694689512,
+                "creation_time": 1729031687.7368667,
+                "auxillary_file_paths": [
+                    "results\\train10153\\car_training_config\\car_training_config-499968.pt"
+                ]
+            },
+            {
+                "steps": 500032,
+                "file_path": "results\\train10153\\car_training_config\\car_training_config-500032.onnx",
+                "reward": 0.8804234694689512,
+                "creation_time": 1729031687.7683837,
+                "auxillary_file_paths": [
+                    "results\\train10153\\car_training_config\\car_training_config-500032.pt"
+                ]
+            },
+            {
+                "steps": 500032,
+                "file_path": "results\\train10153\\car_training_config\\car_training_config-500032.onnx",
+                "reward": null,
+                "creation_time": 1729053061.9477196,
+                "auxillary_file_paths": [
+                    "results\\train10153\\car_training_config\\car_training_config-500032.pt"
+                ]
+            },
+            {
+                "steps": 500032,
+                "file_path": "results\\train10153\\car_training_config\\car_training_config-500032.onnx",
+                "reward": null,
+                "creation_time": 1729053644.4032223,
+                "auxillary_file_paths": [
+                    "results\\train10153\\car_training_config\\car_training_config-500032.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500032,
+            "file_path": "results\\train10153\\car_training_config.onnx",
+            "reward": null,
+            "creation_time": 1729053644.4032223,
+            "auxillary_file_paths": [
+                "results\\train10153\\car_training_config\\car_training_config-500032.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

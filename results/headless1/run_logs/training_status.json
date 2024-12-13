@@ -1,0 +1,65 @@
+{
+    "car_training_config": {
+        "checkpoints": [
+            {
+                "steps": 4849876,
+                "file_path": "results\\headless1\\car_training_config\\car_training_config-4849876.onnx",
+                "reward": -0.5178527696118456,
+                "creation_time": 1731085208.429538,
+                "auxillary_file_paths": [
+                    "results\\headless1\\car_training_config\\car_training_config-4849876.pt"
+                ]
+            },
+            {
+                "steps": 4899999,
+                "file_path": "results\\headless1\\car_training_config\\car_training_config-4899999.onnx",
+                "reward": -0.5101112519523007,
+                "creation_time": 1731085348.4089828,
+                "auxillary_file_paths": [
+                    "results\\headless1\\car_training_config\\car_training_config-4899999.pt"
+                ]
+            },
+            {
+                "steps": 4949887,
+                "file_path": "results\\headless1\\car_training_config\\car_training_config-4949887.onnx",
+                "reward": -0.6466585654868848,
+                "creation_time": 1731085487.242848,
+                "auxillary_file_paths": [
+                    "results\\headless1\\car_training_config\\car_training_config-4949887.pt"
+                ]
+            },
+            {
+                "steps": 4999970,
+                "file_path": "results\\headless1\\car_training_config\\car_training_config-4999970.onnx",
+                "reward": -0.501688740652753,
+                "creation_time": 1731085629.4041922,
+                "auxillary_file_paths": [
+                    "results\\headless1\\car_training_config\\car_training_config-4999970.pt"
+                ]
+            },
+            {
+                "steps": 5000098,
+                "file_path": "results\\headless1\\car_training_config\\car_training_config-5000098.onnx",
+                "reward": -0.501688740652753,
+                "creation_time": 1731085629.4707692,
+                "auxillary_file_paths": [
+                    "results\\headless1\\car_training_config\\car_training_config-5000098.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000098,
+            "file_path": "results\\headless1\\car_training_config.onnx",
+            "reward": -0.501688740652753,
+            "creation_time": 1731085629.4707692,
+            "auxillary_file_paths": [
+                "results\\headless1\\car_training_config\\car_training_config-5000098.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

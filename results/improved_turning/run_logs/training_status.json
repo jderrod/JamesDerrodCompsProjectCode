@@ -1,0 +1,65 @@
+{
+    "car_training_config": {
+        "checkpoints": [
+            {
+                "steps": 23499860,
+                "file_path": "results\\improved_turning\\car_training_config\\car_training_config-23499860.onnx",
+                "reward": 2.4037267080745344,
+                "creation_time": 1732338223.694272,
+                "auxillary_file_paths": [
+                    "results\\improved_turning\\car_training_config\\car_training_config-23499860.pt"
+                ]
+            },
+            {
+                "steps": 23999753,
+                "file_path": "results\\improved_turning\\car_training_config\\car_training_config-23999753.onnx",
+                "reward": 6.222222222222222,
+                "creation_time": 1732341035.8571374,
+                "auxillary_file_paths": [
+                    "results\\improved_turning\\car_training_config\\car_training_config-23999753.pt"
+                ]
+            },
+            {
+                "steps": 24499553,
+                "file_path": "results\\improved_turning\\car_training_config\\car_training_config-24499553.onnx",
+                "reward": 2.5686274509803924,
+                "creation_time": 1732343514.9958117,
+                "auxillary_file_paths": [
+                    "results\\improved_turning\\car_training_config\\car_training_config-24499553.pt"
+                ]
+            },
+            {
+                "steps": 24999620,
+                "file_path": "results\\improved_turning\\car_training_config\\car_training_config-24999620.onnx",
+                "reward": 2.051470588235294,
+                "creation_time": 1732345637.9057422,
+                "auxillary_file_paths": [
+                    "results\\improved_turning\\car_training_config\\car_training_config-24999620.pt"
+                ]
+            },
+            {
+                "steps": 25000120,
+                "file_path": "results\\improved_turning\\car_training_config\\car_training_config-25000120.onnx",
+                "reward": 2.116788321167883,
+                "creation_time": 1732345637.9551523,
+                "auxillary_file_paths": [
+                    "results\\improved_turning\\car_training_config\\car_training_config-25000120.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 25000120,
+            "file_path": "results\\improved_turning\\car_training_config.onnx",
+            "reward": 2.116788321167883,
+            "creation_time": 1732345637.9551523,
+            "auxillary_file_paths": [
+                "results\\improved_turning\\car_training_config\\car_training_config-25000120.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}
